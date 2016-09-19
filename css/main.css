@@ -28,16 +28,12 @@ header {
 }
 
 main {
-  background-color: #553278;
-  padding: 2em;
-  border-radius: 1rem;
-  max-width: 600px;
-  text-align: center;
   align-items: center;
+  text-align: center;
 }
 
 img {
-  width: 100px;
+  width: 15%;
   border-radius: 5rem;
 }
 
@@ -55,6 +51,7 @@ h2 {
   font-weight: 300;
   color: #f9c53d;
   padding: 0.75em;
+  text-align: left;
 }
 
 a {
@@ -70,7 +67,16 @@ footer {
 }
 
 .content {
-  margin: auto;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #553278;
+  padding: 2em;
+  border-radius: 1rem;
+  max-width: 600px;
+
 }
 
 @media only screen and (min-width: 10em) {
